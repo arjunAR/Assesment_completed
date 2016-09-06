@@ -1,0 +1,160 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body{
+  font-family: arial,sans-serif;
+  color: black;
+  font-size: 14px;
+}
+.active{
+  color:white;
+}
+table.test td {
+      width:320px;!important
+      text-align: centre;
+       margin: 12px 12px 12px 12px;
+       padding: 18px 20px;
+       word-wrap:break-word;
+
+}
+table.test th {
+  width:320px;
+  text-align: centre;
+       background-color:#357ebd;
+       color:white;
+       margin: 12px 12px 12px 12px;
+       padding: 12px 12px 12px 12px;
+}
+
+.cont{
+  margin: 70px 0 0px 0;
+}
+
+#deals img{
+   margin: 0 0 20px 0;
+
+}
+
+#deals{
+   text-align: center;
+}
+#upcomingDeals img{
+width:100%;
+
+}
+#jumbo{
+background:url(../../images/flip37.jpg) top center no-repeat;
+height:400px;
+
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar-brand img{
+   width:149px;
+}
+
+#searchsite{
+   width: 200px;
+   margin-top: 10px;
+
+}
+
+#searchButton{
+
+   margin-top: 10px;
+}
+#cart{
+   margin-left: 10px;
+   color: white;
+   margin-top: 7px;
+}
+#myAccount{
+   color: white;
+   margin-top: 10px;
+}
+#myOption li{
+margin:2px 10px 1px 30px;
+padding:0px 10px 0px 10px;
+}
+h1,h2{
+   margin-top:80px;
+
+}
+#myOption li a{
+font-weight:bold;
+color:white;
+}
+#myOption li a:hover{
+background-color: black;
+color:white;
+}
+#ad{
+   font-size: 20px;
+}
+footer{
+   background: #333;
+   color:#eee;
+   font-size: 10px;
+   font-weight: normal;
+   padding: 15px;
+}
+ul{
+ list-style: none;
+color:black;
+font-weight: bold;
+font-size: 24px;
+margin-left: -30px;
+}
+ul li a{
+color:black;
+}
+
+footer h4{
+   font-size: 18px;
+}
+footer p{
+   font-size: 12px;
+}
+#bankOffer img{
+   width: 100%;
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel{
+   margin-top: 80px;
+}
+.item h4{
+   font-size: 32px;
+}
+.item p{
+   font-size: 24px;
+}
+
+
+#myNavBar ul li{
+
+   font-size: 14px;
+}
+#myNavBar{
+   background: #357ebd;
+
+}
